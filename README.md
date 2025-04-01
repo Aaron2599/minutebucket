@@ -2,6 +2,11 @@
 
 The `minutebucket` Go package provides robust utilities for seamlessly converting Go's standard `time.Time` objects into discrete minute intervals. It simplifies time management by representing each minute as a unique `int64` value, signifying the total number of minutes elapsed since the Unix epoch (January 1, 1970 UTC). This technique is ideal for time bucketing and efficient time-series data handling in Go applications.
 
+## Installation
+```bash
+go get github.com/Aaron2599/minutebucket
+```
+
 ## **Optimize Your Time-Based Operations:**
 
 * **Accurate Time Conversion:** Convert any `time.Time` into its corresponding "minute bucket" integer (`int64`).
@@ -14,11 +19,6 @@ The `minutebucket` Go package provides robust utilities for seamlessly convertin
 * **Consistent Time Bucketing:** Generate uniform, minute-based identifiers or keys for caching, logging, or distributed systems.
 * **Time-Series Analysis:** Simplify the aggregation and analysis of data within distinct one-minute intervals. Ideal for monitoring, analytics, and event processing.
 * **Go Time Management:** A fundamental tool for developers needing precise control over time granularity in Go projects.
-
-## Installation
-```bash
-go get github.com/Aaron2599/minutebucket
-```
 
 ## Usage
 ```go

@@ -1,5 +1,10 @@
-# MinuteBucket: Precise Go Time Conversion to Minute Intervals
+<div style="text-align: center; padding-bottom: 0;">
+  <h1>MinuteBucket</h1>
+</div>
 
+<div style="text-align: center;">
+  <h1 style="padding-top: 0;">Precise Go Time Conversion to Minute Intervals</h1>
+</div>
 The `minutebucket` Go package provides robust utilities for seamlessly converting Go's standard `time.Time` objects into discrete minute intervals. It simplifies time management by representing each minute as a unique `int64` value, signifying the total number of minutes elapsed since the Unix epoch (January 1, 1970 UTC). This technique is ideal for time bucketing and efficient time-series data handling in Go applications.
 
 ## Installation
